@@ -67,5 +67,23 @@ public class Main {
 
         );
 
+        Spark.put(
+                "/edit-message",
+                (request, response) -> {
+                    //update message in db
+                    return "";
+                }
+
+        );
+
+        Spark.delete(
+                "/delete-message",
+                (request, response) -> {
+                    //delete message in db
+                    return "";
+                }
+
+        );
+
     }
 }
